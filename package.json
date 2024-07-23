@@ -15,12 +15,15 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@primevue/themes": "^4.0.1",
     "pinia": "^2.1.7",
+    "primevue": "^4.0.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.43.0",
+    "@primevue/auto-import-resolver": "^4.0.1",
     "@rollup/plugin-virtual": "^3.0.2",
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
@@ -39,6 +42,7 @@
     "npm-run-all2": "^6.1.2",
     "prettier": "^3.2.5",
     "typescript": "~5.4.0",
+    "unplugin-vue-components": "^0.27.3",
     "vite": "^5.2.8",
     "vite-plugin-vue-devtools": "^7.0.25",
     "vitest": "^1.4.0",
